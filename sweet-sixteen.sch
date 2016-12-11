@@ -1,1 +1,169 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:16segments
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 16SEGMENTS AFF?
+U 1 1 584D1BBA
+P 1750 1550
+F 0 "AFF?" H 1750 2450 50  0000 C CNN
+F 1 "16SEGMENTS" H 1775 700 50  0000 C CNN
+F 2 "" H 1770 1525 50  0000 C CNN
+F 3 "" H 1770 1525 50  0000 C CNN
+	1    1750 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 16SEGMENTS AFF?
+U 1 1 584D1D6E
+P 3600 1550
+F 0 "AFF?" H 3600 2450 50  0000 C CNN
+F 1 "16SEGMENTS" H 3625 700 50  0000 C CNN
+F 2 "" H 3620 1525 50  0000 C CNN
+F 3 "" H 3620 1525 50  0000 C CNN
+	1    3600 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 16SEGMENTS AFF?
+U 1 1 584D1DFF
+P 5450 1550
+F 0 "AFF?" H 5450 2450 50  0000 C CNN
+F 1 "16SEGMENTS" H 5475 700 50  0000 C CNN
+F 2 "" H 5470 1525 50  0000 C CNN
+F 3 "" H 5470 1525 50  0000 C CNN
+	1    5450 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 16SEGMENTS AFF?
+U 1 1 584D1E84
+P 7300 1550
+F 0 "AFF?" H 7300 2450 50  0000 C CNN
+F 1 "16SEGMENTS" H 7325 700 50  0000 C CNN
+F 2 "" H 7320 1525 50  0000 C CNN
+F 3 "" H 7320 1525 50  0000 C CNN
+	1    7300 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 16SEGMENTS AFF?
+U 1 1 584D2AAA
+P 1800 4500
+F 0 "AFF?" H 1800 5400 50  0000 C CNN
+F 1 "16SEGMENTS" H 1825 3650 50  0000 C CNN
+F 2 "" H 1820 4475 50  0000 C CNN
+F 3 "" H 1820 4475 50  0000 C CNN
+	1    1800 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 16SEGMENTS AFF?
+U 1 1 584D2AB0
+P 3650 4500
+F 0 "AFF?" H 3650 5400 50  0000 C CNN
+F 1 "16SEGMENTS" H 3675 3650 50  0000 C CNN
+F 2 "" H 3670 4475 50  0000 C CNN
+F 3 "" H 3670 4475 50  0000 C CNN
+	1    3650 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 16SEGMENTS AFF?
+U 1 1 584D2AB6
+P 5500 4500
+F 0 "AFF?" H 5500 5400 50  0000 C CNN
+F 1 "16SEGMENTS" H 5525 3650 50  0000 C CNN
+F 2 "" H 5520 4475 50  0000 C CNN
+F 3 "" H 5520 4475 50  0000 C CNN
+	1    5500 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 16SEGMENTS AFF?
+U 1 1 584D2ABC
+P 7350 4500
+F 0 "AFF?" H 7350 5400 50  0000 C CNN
+F 1 "16SEGMENTS" H 7375 3650 50  0000 C CNN
+F 2 "" H 7370 4475 50  0000 C CNN
+F 3 "" H 7370 4475 50  0000 C CNN
+	1    7350 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  950  950  800 
+Wire Wire Line
+	950  800  10100 800 
+Wire Wire Line
+	2800 800  2800 950 
+Wire Wire Line
+	4650 800  4650 950 
+Connection ~ 2800 800 
+Wire Wire Line
+	6500 800  6500 950 
+Connection ~ 4650 800 
+Wire Wire Line
+	10100 800  10100 3000
+Connection ~ 6500 800 
+Text Label 8750 800  0    60   ~ 0
+VLED
+Text Notes 9050 800  0    60   ~ 0
+~4.0 to 4.2V
+Wire Wire Line
+	1000 3900 1000 3750
+Wire Wire Line
+	1000 3750 10100 3750
+Wire Wire Line
+	2850 3750 2850 3900
+Wire Wire Line
+	4700 3750 4700 3900
+Connection ~ 2850 3750
+Connection ~ 4700 3750
+Wire Wire Line
+	10100 1650 10300 1650
+Connection ~ 10100 1650
+Wire Wire Line
+	6550 3900 6550 3750
+Connection ~ 6550 3750
+$EndSCHEMATC
