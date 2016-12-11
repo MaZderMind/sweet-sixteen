@@ -1004,17 +1004,6 @@ F 3 "" H 800 5050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR?
-U 1 1 584E6FF4
-P 1150 4900
-F 0 "#PWR?" H 1150 4750 50  0001 C CNN
-F 1 "VCC" H 1150 5050 50  0000 C CNN
-F 2 "" H 1150 4900 50  0000 C CNN
-F 3 "" H 1150 4900 50  0000 C CNN
-	1    1150 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR?
 U 1 1 584E7062
 P 1150 5050
@@ -1052,17 +1041,6 @@ F 3 "" H 15700 5050 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L VCC #PWR?
-U 1 1 584E732B
-P 15350 4900
-F 0 "#PWR?" H 15350 4750 50  0001 C CNN
-F 1 "VCC" H 15350 5050 50  0000 C CNN
-F 2 "" H 15350 4900 50  0000 C CNN
-F 3 "" H 15350 4900 50  0000 C CNN
-	1    15350 4900
-	-1   0    0    -1  
-$EndComp
-$Comp
 L GND #PWR?
 U 1 1 584E7331
 P 15350 5050
@@ -1077,4 +1055,163 @@ Wire Wire Line
 	15500 5050 15350 5050
 Wire Wire Line
 	15350 4900 15500 4900
+$Comp
+L CONN_02X40 P?
+U 1 1 584E8302
+P 2750 10200
+F 0 "P?" H 2750 12250 50  0000 C CNN
+F 1 "RPI_IF" V 2750 10200 50  0000 C CNN
+F 2 "" H 2750 10200 50  0000 C CNN
+F 3 "" H 2750 10200 50  0000 C CNN
+	1    2750 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 584E8B98
+P 4500 10550
+F 0 "#PWR?" H 4500 10300 50  0001 C CNN
+F 1 "GND" H 4500 10400 50  0000 C CNN
+F 2 "" H 4500 10550 50  0000 C CNN
+F 3 "" H 4500 10550 50  0000 C CNN
+	1    4500 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 584E8F0A
+P 4100 10550
+F 0 "#PWR?" H 4100 10300 50  0001 C CNN
+F 1 "GND" H 4100 10400 50  0000 C CNN
+F 2 "" H 4100 10550 50  0000 C CNN
+F 3 "" H 4100 10550 50  0000 C CNN
+	1    4100 10550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 10550 4500 10450
+Wire Wire Line
+	4100 10550 4100 10450
+$Comp
+L +5V #PWR?
+U 1 1 584E95E2
+P 4900 10450
+F 0 "#PWR?" H 4900 10300 50  0001 C CNN
+F 1 "+5V" H 4900 10590 50  0000 C CNN
+F 2 "" H 4900 10450 50  0000 C CNN
+F 3 "" H 4900 10450 50  0000 C CNN
+	1    4900 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 10450 4900 10650
+Wire Wire Line
+	4700 10450 4700 10650
+Text Notes 5600 10950 0    60   ~ 0
+Note:\nOne the first of the multiple Display-Boards,\nthe RPi-Section is populated, while on the other\nboards it can simply be left Blank.\n\nIt contains an RPi Extension Port Socket, which\nconnects the RPis SPI-Port to the Shift-Registers\nand GPIO 22 to the LE Line of all Boards. It also\npowers the RPi from the Plugpack via the existing\nBarrel Connector.\n\nThe Local Regulator for the 3V3 Rail, which is used\nby the Shift-Registers as Supply and the 4V2 Rail which\npowers the LEDs must be populated on all Boards.
+$Comp
+L +5V #PWR?
+U 1 1 584EF84A
+P 15350 4900
+F 0 "#PWR?" H 15350 4750 50  0001 C CNN
+F 1 "+5V" H 15350 5040 50  0000 C CNN
+F 2 "" H 15350 4900 50  0000 C CNN
+F 3 "" H 15350 4900 50  0000 C CNN
+	1    15350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 584EF95E
+P 1150 4900
+F 0 "#PWR?" H 1150 4750 50  0001 C CNN
+F 1 "+5V" H 1150 5040 50  0000 C CNN
+F 2 "" H 1150 4900 50  0000 C CNN
+F 3 "" H 1150 4900 50  0000 C CNN
+	1    1150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BARREL_JACK CON?
+U 1 1 584F0BF1
+P 950 5850
+F 0 "CON?" H 950 6100 50  0000 C CNN
+F 1 "PWR" H 950 5650 50  0000 C CNN
+F 2 "" H 950 5850 50  0000 C CNN
+F 3 "" H 950 5850 50  0000 C CNN
+	1    950  5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 584F0CCF
+P 1250 6100
+F 0 "#PWR?" H 1250 5850 50  0001 C CNN
+F 1 "GND" H 1250 5950 50  0000 C CNN
+F 2 "" H 1250 6100 50  0000 C CNN
+F 3 "" H 1250 6100 50  0000 C CNN
+	1    1250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 584F0D49
+P 1250 5600
+F 0 "#PWR?" H 1250 5450 50  0001 C CNN
+F 1 "+5V" H 1250 5740 50  0000 C CNN
+F 2 "" H 1250 5600 50  0000 C CNN
+F 3 "" H 1250 5600 50  0000 C CNN
+	1    1250 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5600 1250 5750
+Wire Wire Line
+	1250 5950 1250 6100
+$Comp
+L F_Small F?
+U 1 1 584F1690
+P 4800 10650
+F 0 "F?" H 4760 10710 50  0000 L CNN
+F 1 "500mA" H 4680 10590 50  0000 L CNN
+F 2 "" H 4800 10650 50  0000 C CNN
+F 3 "" H 4800 10650 50  0000 C CNN
+	1    4800 10650
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8550 11250 8550 9200
+Wire Notes Line
+	8550 9200 450  9200
+Text Label 1550 4400 0    60   ~ 0
+CLK
+Text Label 1550 4550 0    60   ~ 0
+LE
+Text Label 1000 4050 1    60   ~ 0
+SDA
+Wire Wire Line
+	3800 9950 3800 9550
+Text Label 3800 9700 1    60   ~ 0
+SDA
+Wire Wire Line
+	3600 9950 3600 9550
+Text Label 3600 9700 1    60   ~ 0
+CLK
+$Comp
+L GND #PWR?
+U 1 1 584F504F
+P 3500 9900
+F 0 "#PWR?" H 3500 9650 50  0001 C CNN
+F 1 "GND" H 3500 9750 50  0000 C CNN
+F 2 "" H 3500 9900 50  0000 C CNN
+F 3 "" H 3500 9900 50  0000 C CNN
+	1    3500 9900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 9900 3500 9950
+Wire Wire Line
+	4000 9950 4000 9550
+Text Label 4000 9650 1    60   ~ 0
+LE
 $EndSCHEMATC
