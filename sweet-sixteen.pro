@@ -1,4 +1,4 @@
-update=So 19 Feb 2017 11:39:55 CET
+update=So 19 Feb 2017 20:21:43 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=16segments
 LibName32=led-driver
+LibName33=oki-t3
