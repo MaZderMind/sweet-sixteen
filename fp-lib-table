@@ -2,4 +2,6 @@
   (lib (name jumper)(type KiCad)(uri "$(KIPRJMOD)/jumper.pretty")(options "")(descr ""))
   (lib (name oki-t3)(type KiCad)(uri "$(KIPRJMOD)/oki-t3.pretty")(options "")(descr ""))
   (lib (name 16segments)(type KiCad)(uri "$(KIPRJMOD)/16segments.pretty")(options "")(descr ""))
+  (lib (name rpi-header)(type KiCad)(uri "$(KIPRJMOD)/rpi-header.pretty")(options "")(descr ""))
+  (lib (name chips)(type KiCad)(uri "$(KIPRJMOD)/chips.pretty")(options "")(descr ""))
 )
