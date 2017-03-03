@@ -582,7 +582,7 @@ LE
 Text Label 1750 8850 0    60   ~ 0
 SDA_I
 Text Label 7550 14100 2    60   ~ 0
-SDA
+SDA_I
 Text Label 7550 13650 2    60   ~ 0
 CLK
 $Comp
@@ -2798,17 +2798,6 @@ Wire Notes Line
 Wire Notes Line
 	6800 3600 6800 450 
 $Comp
-L TEST_1P W6
-U 1 1 58AC0293
-P 8900 3000
-F 0 "W6" H 8900 3270 50  0000 C CNN
-F 1 "GND" H 8900 3200 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 9100 3000 50  0001 C CNN
-F 3 "" H 9100 3000 50  0000 C CNN
-	1    8900 3000
-	-1   0    0    1   
-$EndComp
-$Comp
 L TEST_1P W5
 U 1 1 58AC03B7
 P 8500 3000
@@ -2819,8 +2808,6 @@ F 3 "" H 8700 3000 50  0000 C CNN
 	1    8500 3000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8500 3000 8900 3000
 Connection ~ 8700 3000
 Text Label 3550 8850 0    60   ~ 0
 SDA_12
@@ -2840,4 +2827,6 @@ Text Label 16800 8850 0    60   ~ 0
 SDA_89
 Text Label 18600 8850 0    60   ~ 0
 SDA_O
+Wire Wire Line
+	8500 3000 8700 3000
 $EndSCHEMATC
