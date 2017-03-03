@@ -1,4 +1,4 @@
-(module SMD_Jumper_2 (layer F.Cu) (tedit 58B95BB6)
+(module SMD_Jumper_2 (layer F.Cu) (tedit 58B9C129)
   (descr "Resistor SMD 0603, hand soldering")
   (tags "resistor 0603")
   (attr smd)
@@ -8,6 +8,7 @@
   (fp_text value jmp2 (at 0 1.9) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start 0 -0.65) (end 0 0.65) (layer F.Mask) (width 0.15))
   (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.6 0.8) (end 1.6 0.8) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.6 -0.8) (end -1.6 0.8) (layer F.CrtYd) (width 0.05))

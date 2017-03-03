@@ -8,6 +8,8 @@
   (fp_text value jmp3 (at 0 1.9) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start 0.75 -0.65) (end 0.75 0.65) (layer F.Mask) (width 0.15))
+  (fp_line (start -0.75 -0.65) (end -0.75 0.65) (layer F.Mask) (width 0.15))
   (fp_line (start -2.3 -0.8) (end 2.3 -0.8) (layer F.CrtYd) (width 0.05))
   (fp_line (start -2.3 0.8) (end 2.3 0.8) (layer F.CrtYd) (width 0.05))
   (fp_line (start -2.3 -0.8) (end -2.3 0.8) (layer F.CrtYd) (width 0.05))
