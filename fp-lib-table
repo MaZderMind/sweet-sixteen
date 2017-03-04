@@ -4,4 +4,5 @@
   (lib (name 16segments)(type KiCad)(uri "$(KIPRJMOD)/16segments.pretty")(options "")(descr ""))
   (lib (name rpi-header)(type KiCad)(uri "$(KIPRJMOD)/rpi-header.pretty")(options "")(descr ""))
   (lib (name chips)(type KiCad)(uri "$(KIPRJMOD)/chips.pretty")(options "")(descr ""))
+  (lib (name icons)(type KiCad)(uri "$(KIPRJMOD)/icons.pretty")(options "")(descr ""))
 )
