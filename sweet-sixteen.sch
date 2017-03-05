@@ -2814,21 +2814,9 @@ SDA_9O
 Wire Wire Line
 	8500 3000 8700 3000
 Wire Wire Line
-	17750 7300 17750 5100
-Wire Wire Line
-	17750 5100 5650 5100
-Wire Wire Line
-	3800 5000 17850 5000
-Wire Wire Line
 	18050 5400 18050 7300
 Wire Wire Line
 	17950 5300 17950 7300
-Wire Wire Line
-	17850 5000 17850 7300
-Wire Wire Line
-	17650 5200 17650 7300
-Wire Wire Line
-	7500 5200 17650 5200
 Text Label 21050 8400 0    60   ~ 0
 SDA_O
 Text Label 21050 8850 0    60   ~ 0
@@ -2837,4 +2825,16 @@ Text Label 21050 9300 0    60   ~ 0
 LE_O
 Text Label 21050 9750 0    60   ~ 0
 ~OE_O
+Wire Wire Line
+	17650 7300 17650 5000
+Wire Wire Line
+	17650 5000 3800 5000
+Wire Wire Line
+	17750 7300 17750 5100
+Wire Wire Line
+	17750 5100 5650 5100
+Wire Wire Line
+	17850 7300 17850 5200
+Wire Wire Line
+	17850 5200 7500 5200
 $EndSCHEMATC
