@@ -45,4 +45,9 @@
   (pad 8 thru_hole oval (at 7.62 10.16) (size 1.5 3) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 10 thru_hole oval (at 10.16 -10.16) (size 1.5 3) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 9 thru_hole oval (at 10.16 10.16) (size 1.5 3) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (model /home/peter/Electronics/sweet-sixteen/3D-Models/psa12-11.wrl
+    (at (xyz 0 0 0.46))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 270 0 270))
+  )
 )
