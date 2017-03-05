@@ -2796,7 +2796,7 @@ Connection ~ 8700 3000
 Text Label 3550 8850 0    60   ~ 0
 SDA_12
 Text Label 5400 8850 0    60   ~ 0
-SD23
+SD_23
 Text Label 7250 8850 0    60   ~ 0
 SDA_34
 Text Label 9100 8850 0    60   ~ 0
@@ -2810,7 +2810,7 @@ SDA_78
 Text Label 16800 8850 0    60   ~ 0
 SDA_89
 Text Label 18600 8850 0    60   ~ 0
-SDA_O
+SDA_9O
 Wire Wire Line
 	8500 3000 8700 3000
 Wire Wire Line
@@ -2829,4 +2829,12 @@ Wire Wire Line
 	17650 5200 17650 7300
 Wire Wire Line
 	7500 5200 17650 5200
+Text Label 21050 8400 0    60   ~ 0
+SDA_O
+Text Label 21050 8850 0    60   ~ 0
+CLK_O
+Text Label 21050 9300 0    60   ~ 0
+LE_O
+Text Label 21050 9750 0    60   ~ 0
+~OE_O
 $EndSCHEMATC
