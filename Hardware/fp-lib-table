@@ -5,4 +5,5 @@
   (lib (name rpi-header)(type KiCad)(uri "$(KIPRJMOD)/rpi-header.pretty")(options "")(descr ""))
   (lib (name chips)(type KiCad)(uri "$(KIPRJMOD)/chips.pretty")(options "")(descr ""))
   (lib (name icons)(type KiCad)(uri "$(KIPRJMOD)/icons.pretty")(options "")(descr ""))
+  (lib (name ADTSM61)(type KiCad)(uri "$(KIPRJMOD)/ADTSM61.pretty")(options "")(descr ""))
 )
