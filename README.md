@@ -4,6 +4,14 @@
 <a href="Pictures/ilumninated-segment.jpg" target="_blank"><img align="right" src="Pictures/ilumninated-segment.jpg"></a>
 
 
+## Quick Links
+ * <a href="Hardware/Schematic.pdf">Schematic (PDF)</a>
+ * <a href="Hardware/PCB-Layout.png">PCB Layout (Image)</a>
+ * <a href="Hardware/BOM.ods">BOM</a>
+ * <a href="Datasheets/">Datasheets</a>
+ * <a href="https://github.com/MaZderMind/sweet-sixteen-scheduler">Software</a>
+
+
 ## System Design
 
 <a href="Pictures/chained-assembled-pcbs-back-2.jpg" target="_blank"><img align="right" src="Pictures/chained-assembled-pcbs-back-2.jpg" width="30%"></a>
