@@ -1,0 +1,11 @@
+rev1: 01.04.2017
+ - Moved VIN Testpoint W2
+ - Removed secong GND Testoint W5
+ - Untangled Silkscreen around Testpoints W4 and W1
+ - Untangled Silkscreen around C30 and C31
+ - Removed unconnected Track underneath U31
+ - Moved c9 so that it has enough Clearance with U9 to be actuall solderable
+ - Added rev1 Marker in the bottom left corner
+
+rev0: 19.03.2017
+ - Initial Revision, Built and Assebled

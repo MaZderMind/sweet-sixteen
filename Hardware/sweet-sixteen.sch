@@ -2764,18 +2764,6 @@ Wire Notes Line
 	5300 3600 5300 450 
 Wire Notes Line
 	6800 3600 6800 450 
-$Comp
-L TEST_1P W5
-U 1 1 58AC03B7
-P 8500 3000
-F 0 "W5" H 8500 3270 50  0000 C CNN
-F 1 "GND" H 8500 3200 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 8700 3000 50  0001 C CNN
-F 3 "" H 8700 3000 50  0000 C CNN
-	1    8500 3000
-	-1   0    0    1   
-$EndComp
-Connection ~ 8700 3000
 Text Label 3550 8850 0    60   ~ 0
 SDA_12
 Text Label 5400 8850 0    60   ~ 0
@@ -2794,8 +2782,6 @@ Text Label 16800 8850 0    60   ~ 0
 SDA_89
 Text Label 18600 8850 0    60   ~ 0
 SDA_9O
-Wire Wire Line
-	8500 3000 8700 3000
 Wire Wire Line
 	18050 5400 18050 7300
 Wire Wire Line
